@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AfriStyle AI</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_camera">Camera</string>
+    <string name="nav_outfits">Outfits</string>
+    <string name="nav_try_on">Try On</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_profile">Profile</string>
+    
+    <!-- Home Screen -->
+    <string name="home_welcome">Welcome to AfriStyle AI</string>
+    <string name="home_subtitle">Discover the beauty of African fashion</string>
+    <string name="home_take_photo">Take Photo</string>
+    <string name="home_browse_outfits">Browse Outfits</string>
+    <string name="home_view_history">View History</string>
+    <string name="home_recent_try_ons">Recent Try-Ons</string>
+    
+    <!-- Camera Screen -->
+    <string name="camera_title">Capture Your Photo</string>
+    <string name="camera_instruction">Position your face in the frame</string>
+    <string name="camera_capture">Capture</string>
+    <string name="camera_gallery">Gallery</string>
+    <string name="camera_switch">Switch Camera</string>
+    <string name="camera_flash">Flash</string>
+    <string name="camera_face_detected">Face detected</string>
+    <string name="camera_no_face">No face detected</string>
+    
+    <!-- Outfit Browser -->
+    <string name="outfits_title">African Fashion Catalog</string>
+    <string name="outfits_search">Search outfits...</string>
+    <string name="outfits_filter">Filter</string>
+    <string name="outfits_category_all">All Styles</string>
+    <string name="outfits_category_ankara">Ankara</string>
+    <string name="outfits_category_kente">Kente</string>
+    <string name="outfits_category_dashiki">Dashiki</string>
+    <string name="outfits_category_kitenge">Kitenge</string>
+    <string name="outfits_category_boubou">Boubou</string>
+    <string name="outfits_category_agbada">Agbada</string>
+    <string name="outfits_category_kaftan">Kaftan</string>
+    <string name="outfits_category_habesha">Habesha</string>
+    
+    <!-- Outfit Details -->
+    <string name="outfit_details_title">Outfit Details</string>
+    <string name="outfit_details_description">Description</string>
+    <string name="outfit_details_cultural_context">Cultural Context</string>
+    <string name="outfit_details_available_sizes">Available Sizes</string>
+    <string name="outfit_details_colors">Colors</string>
+    <string name="outfit_details_patterns">Patterns</string>
+    <string name="outfit_details_price_range">Price Range</string>
+    <string name="outfit_details_try_on">Try On</string>
+    
+    <!-- Virtual Try-On -->
+    <string name="try_on_title">Virtual Try-On</string>
+    <string name="try_on_processing">Processing your try-on...</string>
+    <string name="try_on_progress">Progress: %1$d%%</string>
+    <string name="try_on_face_detection">Detecting face...</string>
+    <string name="try_on_outfit_fitting">Fitting outfit...</string>
+    <string name="try_on_image_blending">Blending image...</string>
+    <string name="try_on_finalizing">Finalizing result...</string>
+    <string name="try_on_complete">Try-on complete!</string>
+    <string name="try_on_save">Save</string>
+    <string name="try_on_share">Share</string>
+    <string name="try_on_retry">Retry</string>
+    <string name="try_on_edit">Edit</string>
+    
+    <!-- History -->
+    <string name="history_title">Try-On History</string>
+    <string name="history_empty">No try-ons yet</string>
+    <string name="history_empty_subtitle">Start by taking a photo and trying on an outfit</string>
+    <string name="history_search">Search history...</string>
+    <string name="history_filter_date">Filter by date</string>
+    <string name="history_filter_outfit">Filter by outfit</string>
+    <string name="history_delete">Delete</string>
+    <string name="history_share">Share</string>
+    <string name="history_view">View</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_image_quality">Image Quality</string>
+    <string name="settings_processing_speed">Processing Speed</string>
+    <string name="settings_auto_save">Auto-save Results</string>
+    <string name="settings_cultural_info">Show Cultural Info</string>
+    <string name="settings_storage">Storage Management</string>
+    <string name="settings_storage_used">Storage Used</string>
+    <string name="settings_storage_cleanup">Cleanup Old Files</string>
+    <string name="settings_about">About</string>
+    <string name="settings_privacy">Privacy Policy</string>
+    <string name="settings_terms">Terms of Service</string>
+    
+    <!-- Image Quality Options -->
+    <string name="quality_low">Low</string>
+    <string name="quality_medium">Medium</string>
+    <string name="quality_high">High</string>
+    <string name="quality_ultra">Ultra</string>
+    
+    <!-- Processing Speed Options -->
+    <string name="speed_fast">Fast</string>
+    <string name="speed_balanced">Balanced</string>
+    <string name="speed_quality">Quality</string>
+    
+    <!-- Permissions -->
+    <string name="permission_camera_title">Camera Permission</string>
+    <string name="permission_camera_message">AfriStyle AI needs camera access to take photos for virtual try-on</string>
+    <string name="permission_storage_title">Storage Permission</string>
+    <string name="permission_storage_message">AfriStyle AI needs storage access to save and share your try-on results</string>
+    <string name="permission_grant">Grant Permission</string>
+    <string name="permission_deny">Not Now</string>
+    
+    <!-- Error Messages -->
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="error_no_face_detected">No face detected in the image. Please try again with a clearer photo.</string>
+    <string name="error_multiple_faces">Multiple faces detected. Please use a photo with only one person.</string>
+    <string name="error_poor_image_quality">Image quality is too low. Please try again with better lighting.</string>
+    <string name="error_processing_failed">Processing failed. Please try again.</string>
+    <string name="error_storage_full">Not enough storage space. Please free up some space and try again.</string>
+    <string name="error_camera_unavailable">Camera is not available. Please check if another app is using it.</string>
+    <string name="error_network_unavailable">Network connection required for initial setup.</string>
+    
+    <!-- Success Messages -->
+    <string name="success_photo_saved">Photo saved successfully</string>
+    <string name="success_image_exported">Image exported to gallery</string>
+    <string name="success_image_shared">Image shared successfully</string>
+    <string name="success_settings_saved">Settings saved</string>
+    
+    <!-- Loading Messages -->
+    <string name="loading_models">Loading AI models...</string>
+    <string name="loading_outfits">Loading outfit catalog...</string>
+    <string name="loading_history">Loading history...</string>
+    
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">Welcome to AfriStyle AI</string>
+    <string name="onboarding_welcome_subtitle">Discover the beauty of African fashion with AI-powered virtual try-on</string>
+    <string name="onboarding_camera_title">Take Your Photo</string>
+    <string name="onboarding_camera_subtitle">Capture or upload a photo to get started with virtual try-on</string>
+    <string name="onboarding_outfits_title">Explore African Fashion</string>
+    <string name="onboarding_outfits_subtitle">Browse authentic African outfits with rich cultural context</string>
+    <string name="onboarding_ai_title">AI-Powered Try-On</string>
+    <string name="onboarding_ai_subtitle">See how you look in traditional African fashion with realistic AI processing</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_skip">Skip</string>
+    <string name="onboarding_get_started">Get Started</string>
+    
+    <!-- Cultural Context -->
+    <string name="cultural_context_title">Cultural Context</string>
+    <string name="cultural_learn_more">Learn More</string>
+    
+    <!-- Sizes -->
+    <string name="size_xs">XS</string>
+    <string name="size_s">S</string>
+    <string name="size_m">M</string>
+    <string name="size_l">L</string>
+    <string name="size_xl">XL</string>
+    <string name="size_xxl">XXL</string>
+    <string name="size_xxxl">XXXL</string>
+    
+    <!-- Actions -->
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_save">Save</string>
+    <string name="action_share">Share</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_close">Close</string>
+    <string name="action_back">Back</string>
+    <string name="action_next">Next</string>
+    <string name="action_previous">Previous</string>
+    
+    <!-- Content Descriptions -->
+    <string name="cd_outfit_image">Outfit image</string>
+    <string name="cd_user_photo">User photo</string>
+    <string name="cd_try_on_result">Try-on result</string>
+    <string name="cd_camera_preview">Camera preview</string>
+    <string name="cd_face_detection_overlay">Face detection overlay</string>
+    <string name="cd_back_button">Back button</string>
+    <string name="cd_menu_button">Menu button</string>
+    <string name="cd_settings_button">Settings button</string>
+</resources>
